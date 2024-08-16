@@ -1,0 +1,78 @@
+h2 {
+    background-color: palegreen;
+    width: 450px;
+    color: white;
+}
+
+div.box {
+    padding: 20px;
+
+    &:nth-of-type(2) {
+       background-color: aqua;
+    }
+
+    &:nth-of-type(3) {
+        background-color: chartreuse;
+        width: 300px;
+    }
+}
+
+.redBox {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+
+.wrapper {
+    font-size: 0; // 요소간 간격 제거
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle; // 수직 정렬
+    border: 3px solid blue;
+    font-size: 20px;
+
+    &.box1 {
+        width: 200px;
+        height: 70px;
+    }
+
+    &.box2 {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.collapse {
+    visibility: collapse;
+}
+
+
+.opacity {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: blue;
+    color: white;
+    opacity: 0.5;
+    transition: opacity 0.25s;
+    line-height: 150px;
+    text-align: center;
+
+    &:hover {
+        opacity: 1.0;
+    }
+}

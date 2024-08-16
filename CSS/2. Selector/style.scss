@@ -1,0 +1,188 @@
+* /* Universal Selector */ {
+	color: blue;
+}
+
+em /* Type Selector */ {
+	color: purple;
+}
+
+#p1 /* ID Selector */ {
+	color: powderblue;
+}
+
+.p2 /* class Selector */ {
+	color: salmon;
+}
+
+/* Attribute Selector */
+a[href] {
+	/* Selector[Attribute] */
+	color: aqua;
+}
+
+a[target="_blank"] {
+	/* Selector[Attribute="Val"] */
+	color: hotpink;
+}
+
+h1[title~="first"] {
+	/* Selector[Attribute~="Val"] */
+	color: palegreen;
+}
+
+p[lang|="en"] {
+	/* Selector[Attribute|="Val"] */
+	color: lightblue;
+}
+
+a[href^="https://"] {
+	/* Selector[Attribute^="Val"] */
+	color: lightseagreen;
+}
+
+a[href$=".html"] {
+	/* Selector[Attribute$="Val"] */
+	color: lightskyblue;
+}
+
+div[class*="test"] {
+	/* Selector[Attribute*="Val"] */
+	color: lightslategray;
+}
+
+/* Combinator */
+div p {
+	/* 후손 셀렉터 */
+	color: lightyellow;
+	background-color: black;
+}
+
+div > a {
+	/* 자식 셀렉터 */
+	color: lightyellow;
+	background-color: black;
+}
+
+/* 형제 셀렉터 */
+div + ul {
+	/* 인접 형제 셀렉터 */
+	background-color: powderblue;
+}
+
+table ~ strong {
+	/* 일반 형제 셀렉터 */
+	color: darkred;
+}
+
+/* 가상 클래스 셀렉터 (Pseudo-Class Selector) */
+a:hover {
+	/* 링크 셀렉터, 동적 셀렉터 */
+	background-color: yellow;
+}
+a:focus {
+	/* 링크 셀렉터, 동적 셀렉터 */
+	background-color: orange;
+}
+a:link {
+	/* 링크 셀렉터, 동적 셀렉터 */
+	background-color: aquamarine;
+}
+a:visited {
+	/* 링크 셀렉터, 동적 셀렉터 */
+	background-color: beige;
+}
+a:active {
+	/* 링크 셀렉터, 동적 셀렉터 */
+	background-color: pink;
+}
+
+input:enabled + span {
+	/* UI 요소 상태 셀렉터 */
+	color: royalblue;
+}
+input:disabled + span {
+	/* UI 요소 상태 셀렉터 */
+	color: rosybrown;
+	text-decoration: line-through;
+}
+input:checked + span {
+	/* UI 요소 상태 셀렉터 */
+	color: brown;
+}
+
+ol li:first-child {
+	/* 구조 가상 클래스 셀렉터 */
+	background-color: skyblue;
+}
+ol li:last-child {
+	/* 구조 가상 클래스 셀렉터 */
+	background-color: silver;
+}
+ol li:nth-child(2n) {
+	/* 구조 가상 클래스 셀렉터 */
+	color: red;
+}
+ol li:nth-last-child(3) {
+	/* 구조 가상 클래스 셀렉터 */
+	color: green;
+}
+i:first-of-type {
+	/* 구조 가상 클래스 셀렉터 */
+	color: red;
+}
+i:last-of-type {
+	/* 구조 가상 클래스 셀렉터 */
+	color: blue;
+}
+i:nth-of-type(2) {
+	/* 구조 가상 클래스 셀렉터 */
+	color: yellow;
+	background-color: black;
+}
+i:nth-last-of-type(2) {
+	/* 구조 가상 클래스 셀렉터 */
+	color: green;
+}
+
+input:not([type="password"]) {
+	/* 부정 셀렉터 */
+	background: yellow; /* :not(Selector), Attr일경우 [] 붙임 */
+}
+
+input[type="text"]:valid {
+	/* 정합성 체크 셀렉터 */
+	background-color: lightgreen;
+}
+input[type="text"]:invalid {
+	/* 정합성 체크 셀렉터 */
+	background-color: red;
+}
+
+/* 가상 요소 셀렉터 */
+.p1::first-letter {
+	font-size: 50px;
+}
+.p1::first-line {
+	color: red;
+}
+h4::before {
+	content: "HTML ";
+	color: blue;
+}
+h4::after {
+	content: " CSS";
+	color: green;
+}
+::selection {
+	/* 드래그한 콘텐츠 선택 */
+	background: black;
+}
+
+.legend_setting {
+	font-size: 30px;
+	color: black;
+}
+
+h2.sub_heading {
+	color: black;
+}

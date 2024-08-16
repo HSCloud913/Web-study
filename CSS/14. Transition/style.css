@@ -1,0 +1,42 @@
+legend { font-size: 30px; }
+
+.boxTocircle { color: white; text-align: center; width: 100px; height: 100px; background: powderblue; margin-bottom: 10px; line-height: 100px; -webkit-transition: all 1s; transition: all 1s; }
+
+.boxTocircle:hover { border-radius: 50%; background: blue; }
+
+.boxTocircle-no-hoverOff { color: white; text-align: center; width: 100px; height: 100px; background: powderblue; margin-bottom: 10px; line-height: 100px; }
+
+.boxTocircle-no-hoverOff:hover { border-radius: 50%; background: blue; -webkit-transition: all 1s; transition: all 1s; }
+
+.property { width: 150px; height: 50px; background-color: red; margin-bottom: 10px; -webkit-transition-property: width, height, background-color; transition-property: width, height, background-color; }
+
+.property:hover { width: 500px; height: 100px; background-color: blue; }
+
+.duration { width: 150px; height: 50px; background-color: red; margin-bottom: 10px; -webkit-transition-property: width, height, opacity, background-color; transition-property: width, height, opacity, background-color; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; }
+
+.duration:hover { width: 500px; height: 100px; opacity: .1; background-color: blue; }
+
+.timing-funtion { font: bold 16px "Open Sans"; line-height: 50px; color: white; text-align: center; width: 150px; height: 50px; background-color: red; margin-bottom: 10px; -webkit-transition: width 0.5s, height 0.5s, line-height 0.5s, background-color 0.5s; transition: width 0.5s, height 0.5s, line-height 0.5s, background-color 0.5s; }
+
+.timing-funtion:nth-child(1) { -webkit-transition-timing-function: ease; transition-timing-function: ease; }
+
+.timing-funtion:nth-child(2) { -webkit-transition-timing-function: linear; transition-timing-function: linear; }
+
+.timing-funtion:nth-child(3) { -webkit-transition-timing-function: ease-in; transition-timing-function: ease-in; }
+
+.timing-funtion:nth-child(4) { -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; }
+
+.timing-funtion:nth-child(5) { -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
+
+.timing-funtion:hover { width: 500px; height: 100px; line-height: 100px; background-color: blue; }
+
+.delay { font: bold 16px/50px "Open Sans"; color: white; text-align: center; width: 150px; height: 50px; background-color: red; margin-bottom: 10px; -webkit-transition: width 0.5s, height 0.5s, line-height 0.5s, background-color 0.5s; transition: width 0.5s, height 0.5s, line-height 0.5s, background-color 0.5s; }
+
+.delay:nth-of-type(1) { -webkit-transition-delay: 0s; transition-delay: 0s; }
+
+.delay:nth-of-type(2) { -webkit-transition-delay: 1.5s; transition-delay: 1.5s; }
+
+.delay:nth-of-type(3) { -webkit-transition-delay: 3s; transition-delay: 3s; }
+
+.delay:hover { width: 500px; height: 100px; line-height: 100px; background-color: blue; }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Float Left</h1>
+        <img class="float-left" src="https://poiemaweb.com/img/doug.jpg">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis autem ipsam laudantium placeat nam
+            asperiores, molestiae temporibus, nesciunt rem distinctio quidem consectetur obcaecati quia earum in. Architecto
+            dolor quod error.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis autem ipsam laudantium placeat nam
+            asperiores, molestiae temporibus, nesciunt rem distinctio quidem consectetur obcaecati quia earum in. Architecto
+            dolor quod error.
+        </div>
+        <hr>
+    
+        <h1>Float Right</h1>
+        <img class="float-left" src="https://poiemaweb.com/img/doug.jpg">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis autem ipsam laudantium placeat nam
+            asperiores, molestiae temporibus, nesciunt rem distinctio quidem consectetur obcaecati quia earum in. Architecto
+            dolor quod error.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis autem ipsam laudantium placeat nam
+            asperiores, molestiae temporibus, nesciunt rem distinctio quidem consectetur obcaecati quia earum in. Architecto
+            dolor quod error.
+        </div>
+        <hr>
+    
+        <h1>Float None</h1>
+        <img class="float-none" src="https://poiemaweb.com/img/doug.jpg">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis autem ipsam laudantium placeat nam
+            asperiores, molestiae temporibus, nesciunt rem distinctio quidem consectetur obcaecati quia earum in. Architecto
+            dolor quod error.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis autem ipsam laudantium placeat nam
+            asperiores, molestiae temporibus, nesciunt rem distinctio quidem consectetur obcaecati quia earum in. Architecto
+            dolor quod error.
+        </div>
+        <hr>
+    
+        <fieldset>
+            <legend>Sort</legend>
+            <div class="sort left">1</div>
+            <div class="sort left">2</div>
+            <div class="sort right">3</div>
+            <div class="sort right">4</div>
+            <div class="sort center">5</div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Width</legend>
+            <div class="width block-red"> div </div>
+            <div class="width block-orange"> div </div>
+            <hr>
+            
+            <!-- ----------------------------------------------------- -->
+            <div class="width block-green"> float: div </div>
+            <div class="width block-blue"> div </div>
+            <hr>
+            <!-- float 프로퍼티가 선언된 요소와 float 프로퍼티가 선언되지 않은 요소간 margin이 사라지는 문제 -->
+            <!--    -> float 프로퍼티가 선언되지 않은 요소에 overflow: hidden 값을 주면 해결됨 -->
+            <div class="width block-d-blue"> float: div </div>
+            <div class="width block-purple"> div </div>
+            <hr>
+            
+            <!-- ----------------------------------------------------- -->
+            <div class="container1">
+                <div class="d1">1</div>
+                <div class="d2">2</div>
+            </div>
+            <div style="background:red;padding:10px;color:white;text-align:center;">3</div>
+            <hr>
+            <!-- float 프로퍼티가 선언된 자식 요소를 포함하는 부모 요소의 높이가 정상적으로 반영되지 않는 문제 -->
+            <!--    -> float 프로퍼티가 선언된 자식 요소의 부모 요소에 overflow: hidden 프로퍼티를 선언 -->
+            <div class="container2">
+                    <div class="d1">1</div>
+                    <div class="d2">2</div>
+                </div>
+                <div style="background:red;padding:10px;color:white;text-align:center;">3</div>
+        </fieldset>
+    </body>
+</html>

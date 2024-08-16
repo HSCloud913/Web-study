@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Introduction</legend>
+
+        <div class="flex-container introduction">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+            <div class="flex-item">5</div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>flex-direction</legend>
+
+        <h2>Row</h2>
+        <div class="flex-container direction row">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+        <hr>
+
+        <h2>Row-Reverse</h2>
+        <div class="flex-container direction row-rev">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+        <hr>
+
+        <h2>Column</h2>
+        <div class="flex-container direction col">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+        <hr>
+
+        <h2>Column-Reverse</h2>
+        <div class="flex-container direction col-rev">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>flex-wrap</legend>
+
+        <h2>Wrap</h2>
+        <div class="flex-container wrap">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+            <div class="flex-item">5</div>
+            <div class="flex-item">6</div>
+        </div>
+        <hr>
+
+        <h2>NoWrap</h2>
+        <div class="flex-container wrap no">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+            <div class="flex-item">5</div>
+        </div>
+        <hr>
+
+        <h2>Wrap-Reverse</h2>
+        <div class="flex-container wrap reverse">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+            <div class="flex-item">5</div>
+            <div class="flex-item">6</div>
+        </div>
+        <hr>
+    </fieldset>
+
+    <fieldset>
+        <legend>justify-content</legend>
+
+        <h2>start</h2>
+        <div class="flex-container justify-content start">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+        <hr>
+
+        <h2>center</h2>
+        <div class="flex-container justify-content center">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+        <hr>
+
+        <h2>end</h2>
+        <div class="flex-container justify-content end">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+        <h2>space-between</h2>
+        <div class="flex-container justify-content space-between">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+        <hr>
+
+        <h2>space-around</h2>
+        <div class="flex-container justify-content space-around">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>align-items</legend>
+
+        <h2>stretch</h2>
+        <div class="flex-container align-items stretch">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+        <hr>
+
+        <h2>start</h2>
+        <div class="flex-container align-items start">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+        <hr>
+
+        <h2>center</h2>
+        <div class="flex-container align-items center">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+        <hr>
+
+        <h2>end</h2>
+        <div class="flex-container align-items end">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+
+        <h2>baseline</h2>
+        <div class="flex-container align-items baseline">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>align-content</legend>
+
+        <!-- <h2>stretch</h2>
+        <div class="flex-container align-content stretch">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+            <div class="flex-item">5</div>
+            <div class="flex-item">6</div>
+        </div>
+        <hr> -->
+
+        <h2>start</h2>
+        <div class="flex-container align-content start">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set">3</div>
+            <div class="flex-item set">4</div>
+            <div class="flex-item set">5</div>
+            <div class="flex-item set">6</div>
+        </div>
+        <hr>
+
+        <h2>center</h2>
+        <div class="flex-container align-content center">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set">3</div>
+            <div class="flex-item set">4</div>
+            <div class="flex-item set">5</div>
+            <div class="flex-item set">6</div>
+        </div>
+        <hr>
+
+        <h2>end</h2>
+        <div class="flex-container align-content end">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set">3</div>
+            <div class="flex-item set">4</div>
+            <div class="flex-item set">5</div>
+            <div class="flex-item set">6</div>
+        </div>
+
+        <h2>space-between</h2>
+        <div class="flex-container align-content space-between">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set">3</div>
+            <div class="flex-item set">4</div>
+            <div class="flex-item set">5</div>
+            <div class="flex-item set">6</div>
+        </div>
+        <hr>
+
+        <h2>space-around</h2>
+        <div class="flex-container align-content space-around">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set">3</div>
+            <div class="flex-item set">4</div>
+            <div class="flex-item set">5</div>
+            <div class="flex-item set">6</div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>item</legend>
+
+        <h2>order</h2>
+        <div class="flex-container">
+            <div class="flex-item set" style="order: 3">1</div>
+            <div class="flex-item set" style="order: 4">2</div>
+            <div class="flex-item set" style="order: 5">3</div>
+            <div class="flex-item set" style="order: 2">4</div>
+            <div class="flex-item set" style="order: 1">5</div>
+        </div>
+        <hr>
+        
+        <h2>flex-grow</h2>
+        <div class="flex-container">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set" style="flex-grow: 10">3</div>
+            <div class="flex-item set">4</div>
+        </div>
+        <hr>
+        
+        <h2>flex-shrink</h2>
+        <div class="flex-container">
+            <div class="flex-item flex-shrink short">1</div>
+            <div class="flex-item flex-shrink long">2</div>
+            <div class="flex-item flex-shrink short">3</div>
+            <div class="flex-item flex-shrink short">4</div>
+        </div>
+        <hr>
+
+        <h2>flex-basis</h2>
+        <div class="flex-container">
+            <div class="flex-item" style="flex-basis: auto;">1</div>
+            <div class="flex-item" style="flex-basis: 25px;">2</div>
+            <div class="flex-item" style="flex-basis: 50px;">3</div>
+            <div class="flex-item" style="flex-basis: 75px;">4</div>
+        </div>
+        <hr>
+
+        <h2>align-self</h2>
+        <div class="flex-container align-self">
+            <div class="flex-item set">1</div>
+            <div class="flex-item set">2</div>
+            <div class="flex-item set">3</div>
+            <div class="flex-item set">4</div>
+            <div class="flex-item set">5</div>
+        </div>
+    </fieldset>
+</body>
+
+</html>

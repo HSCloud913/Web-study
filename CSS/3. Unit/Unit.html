@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="color.css">
+        
+        <style>
+            body {
+                margin: 0px;
+            }
+            .item {
+                width: 25vw;
+                height: 50vh;
+                text-align: center;
+                line-height: 50vh;
+                font-size: 2em;
+                color: white;
+            }
+
+            .item1 {
+                background-color: red;
+            }
+            
+            .item2 {
+                background-color: blue;
+            }
+        </style>
+    </head>
+
+    <body style="font-size: 20px">
+        <!-- 1px = 1/96 inch -->
+
+        <fieldset>
+            <legend>크기단위</legend>    
+            <div>20px</div>
+            <hr>
+            <div style="font-size: 120%">24px
+                <div style="font-size: 120%">28.8px (크기가 상속되서 연산됨)</div>
+            </div>
+            <hr>
+            <div style="font-size: 1.5em">30px
+                <div style="font-size: 1.5em">45px (크기가 상속되서 연산됨)</div>
+            </div>
+            <hr>
+    
+            <!-- 최상위 요소의 사이즈를 기준으로 삼고 연산 수행함 -->
+            <div style="font-size: 2rem">40px (크기가 상속되지 않음)
+                <div style="font-size: 2rem">40px (크기가 상속되지 않음)
+                    <div style="font-size: 2rem">40px (크기가 상속되지 않음)
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Viewport 단위</legend>
+            <div class="item item1">Item</div>
+            <div class="item item2">Item</div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Color</legend>
+            <h1>HEX colors:</h1>
+            <p id="hex-r">Red</p>
+            <p id="hex-g">Green</p>
+            <p id="hex-b">Blue</p>
+            <p id="hex-y">Yellow</p>
+            <p id="hex-p">Cerise</p>
+
+            <h1>RGB colors:</h1>
+            <p id="rgb-r">Red</p>
+            <p id="rgb-g">Green</p>
+            <p id="rgb-b">Blue</p>
+            <p id="rgb-gy">Grey</p>
+            <p id="rgb-y">Yellow</p>
+            <p id="rgb-p">Cerise</p>
+
+            <h1>RGB colors with opacity:</h1>
+            <p id="rgba-r0_3">Red</p>
+            <p id="rgba-g0_3">Green</p>
+            <p id="rgba-b0_3">Blue</p>
+            <p id="rgba-gy0_3">Grey</p>
+            <p id="rgba-y0_3">Yellow</p>
+            <p id="rgba-p0_3">Cerise</p>
+
+            <h1>HSL colors:</h1>
+            <p id="hsl-p1">Green</p>
+            <p id="hsl-p2">Light green</p>
+            <p id="hsl-p3">Dark green</p>
+            <p id="hsl-p4">Pastel green</p>
+            <p id="hsl-p5">Violet</p>
+            <p id="hsl-p6">Pastel violet</p>
+
+            <h1>HSL colors with opacity:</h1>
+            <p id="hsla-p1a0_3">Green</p>
+            <p id="hsla-p2a0_3">Light green</p>
+            <p id="hsla-p3a0_3">Dark green</p>
+            <p id="hsla-p4a0_3">Pastel green</p>
+            <p id="hsla-p5a0_3">Violet</p>
+            <p id="hsla-p6a0_3">Pastel violet</p>
+        </fieldset>
+    </body>
+</html>

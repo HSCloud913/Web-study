@@ -1,0 +1,38 @@
+body { margin: 0; }
+
+.parent-static { width: 300px; height: 300px; background: #bcbcbc; border: 1px solid #bcbcbc; margin-bottom: 100px; }
+
+.parent-relative { width: 300px; height: 300px; background: #bcbcbc; border: 1px solid #bcbcbc; margin-bottom: 100px; }
+
+.parent-absolute { width: 300px; height: 300px; background: #bcbcbc; border: 1px solid #bcbcbc; margin-bottom: 100px; position: relative; }
+
+.static { background: #2E303D; width: 300px; height: 300px; color: #e55c3c; font-weight: bold; text-align: center; line-height: 300px; margin-bottom: 100px; position: static; }
+
+.relative { background: #2E303D; width: 300px; height: 300px; color: #e55c3c; font-weight: bold; text-align: center; line-height: 300px; margin-bottom: 100px; top: 50px; left: 50px; position: relative; }
+
+.absolute { background: #2E303D; width: 300px; height: 300px; color: #e55c3c; font-weight: bold; text-align: center; line-height: 300px; margin-bottom: 100px; top: 100px; left: 100px; position: absolute; }
+
+.fixed { position: fixed; color: #e55c3c; font-weight: bold; text-align: center; background: #2E303D; }
+
+.fixed.side { width: 75px; height: 100%; top: 0; right: 0; padding-top: 100px; line-height: 700px; }
+
+.fixed.footer { width: 200px; width: 100%; height: 50px; bottom: 0; left: 0; line-height: 50px; }
+
+.z-idx { width: 100px; height: 100px; position: absolute; }
+
+.z-idx.red { background-color: red; top: 1210px; z-index: 3; }
+
+.z-idx.green { background-color: green; left: 50px; top: 1235px; z-index: 2; }
+
+.z-idx.blue { background-color: blue; left: 100px; top: 1260px; z-index: 1; }
+
+.overflow { width: 150px; height: 150px; margin: 15px 15px 175px; font-size: 1.2em; border-radius: 6px; border-color: gray; border-style: dotted; }
+
+.overflow.visible { overflow: visible; }
+
+.overflow.hidden { overflow: hidden; }
+
+.overflow.scroll { overflow: scroll; }
+
+.overflow.auto { overflow: auto; }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+.font.size { font-size: large; }
+
+.font.family { font-family: Arial, Helvetica, "Courier New"; }
+
+.font.style { font-style: italic; }
+
+.font.weight.light { font-weight: lighter; }
+
+.font.weight.thick { font-weight: bold; }
+
+.font.weight.thicker { font-weight: 900; }
+
+.text.line-height.small { line-height: 70%; }
+
+.text.line-height.big { line-height: 1.2; }
+
+.text.line-height.lh-3x { line-height: 3.0; }
+
+.text.letter-spacing.loose { letter-spacing: 2px; }
+
+.text.letter-spacing.tight { letter-spacing: -1px; }
+
+.text.text-align.left { text-align: left; }
+
+.text.text-align.right { text-align: right; }
+
+.text.text-align.center { text-align: center; }
+
+.text.text-align.justify { text-align: justify; }
+
+.text.text-decoration.overline { text-decoration: overline; }
+
+.text.text-decoration.line-through { text-decoration: line-through; }
+
+.text.text-decoration.underline { text-decoration: underline; }
+
+.text.white-space { width: 300px; height: 150px; padding: 10px; margin: 10px; border-radius: 6px; border-color: gray; border-style: dotted; }
+
+.text.white-space.normal { white-space: normal; }
+
+.text.white-space.nowrap { white-space: nowrap; }
+
+.text.white-space.pre { white-space: pre; }
+
+.text.white-space.pre-wrap { white-space: pre-wrap; }
+
+.text.white-space.pre-line { white-space: pre-line; }
+
+.text.text-overflow { width: 150px; /* width가 지정되어 있어야 한다. */ height: 50px; padding: 10px; margin: 10px; border-radius: 6px; border-color: gray; border-style: dotted; white-space: nowrap; /* 자동 줄바꿈을 방지 */ overflow: hidden; /* 반드시 "visible" 이외의 값이 지정되어 있어야 한다. */ }
+
+.text.text-overflow.clip { text-overflow: clip; }
+
+.text.text-overflow.ellipsis { text-overflow: ellipsis; }
+
+.text.word-wrap { width: 150px; /* width가 지정되어 있어야 한다. */ height: 100px; padding: 10px; margin: 10px; border-radius: 6px; border-color: gray; border-style: dotted; word-wrap: break-word; }
+
+.text.word-break { width: 150px; /* width가 지정되어 있어야 한다. */ height: 100px; padding: 10px; margin: 10px; border-radius: 6px; border-color: gray; border-style: dotted; word-break: break-all; }
+
+legend { font-size: 30px; }
+
+h2 { background-color: aqua; color: white; }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+#hex-r { background-color: #ff0000; }
+
+#hex-g { background-color: #00ff00; }
+
+#hex-b { background-color: #0000ff; }
+
+#hex-y { background-color: #ffff00; }
+
+#hex-p { background-color: #ff00ff; }
+
+#rgb-r { background-color: red; }
+
+#rgb-g { background-color: lime; }
+
+#rgb-b { background-color: blue; }
+
+#rgb-gy { background-color: silver; }
+
+#rgb-y { background-color: yellow; }
+
+#rgb-p { background-color: magenta; }
+
+#rgba-r0_3 { background-color: rgba(255, 0, 0, 0.3); }
+
+#rgba-g0_3 { background-color: rgba(0, 255, 0, 0.3); }
+
+#rgba-b0_3 { background-color: rgba(0, 0, 255, 0.3); }
+
+#rgba-gy0_3 { background-color: rgba(192, 192, 192, 0.3); }
+
+#rgba-y0_3 { background-color: rgba(255, 255, 0, 0.3); }
+
+#rgba-p0_3 { background-color: rgba(255, 0, 255, 0.3); }
+
+#hsl-p1 { background-color: lime; }
+
+#hsl-p2 { background-color: #80ff80; }
+
+#hsl-p3 { background-color: green; }
+
+#hsl-p4 { background-color: #85e085; }
+
+#hsl-p5 { background-color: #d500ff; }
+
+#hsl-p6 { background-color: #d185e0; }
+
+#hsla-p1a0_3 { background-color: rgba(0, 255, 0, 0.3); }
+
+#hsla-p2a0_3 { background-color: rgba(128, 255, 128, 0.3); }
+
+#hsla-p3a0_3 { background-color: rgba(0, 128, 0, 0.3); }
+
+#hsla-p4a0_3 { background-color: rgba(133, 224, 133, 0.3); }
+
+#hsla-p5a0_3 { background-color: rgba(213, 0, 255, 0.3); }
+
+#hsla-p6a0_3 { background-color: rgba(209, 133, 224, 0.3); }
+/*# sourceMappingURL=color.css.map */

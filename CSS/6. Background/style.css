@@ -1,0 +1,38 @@
+.bg { background-image: url("./Rose.jpg"); border: 5px solid gray; width: 474px; height: 444px; margin: 10px; }
+
+.bg.repeat.x { background-repeat: repeat-x; }
+
+.bg.repeat.y { background-repeat: repeat-y; }
+
+.bg.repeat.no { background-repeat: no-repeat; }
+
+.bg.size.pixel { background-size: 200px 200px; }
+
+.bg.size.percent { background-size: 120% 120%; }
+
+.bg.size.cover { background-size: cover; }
+
+.bg.size.contain { background-size: contain; }
+
+.bg.attachment { height: 888px; background-size: contain; background-attachment: fixed; }
+
+.bg.position { background-repeat: no-repeat; }
+
+.bg.position.top { background-position: top; }
+
+.bg.position.bottom { background-position: bottom; }
+
+.bg.position.left { background-position: left; }
+
+.bg.position.right { background-position: right; }
+
+.bg.position.center { background-position: center; }
+
+.bg.position.pixel { background-position: 10px 20px; }
+
+.bg.position.percent { background-position: 25% 75%; }
+
+.bg.color { background-repeat: no-repeat; background-color: lightgreen; }
+
+div { font-size: 30px; color: white; background-color: powderblue; }
+/*# sourceMappingURL=style.css.map */

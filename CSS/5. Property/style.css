@@ -1,0 +1,28 @@
+h2 { background-color: palegreen; width: 450px; color: white; }
+
+div.box { padding: 20px; }
+
+div.box:nth-of-type(2) { background-color: aqua; }
+
+div.box:nth-of-type(3) { background-color: chartreuse; width: 300px; }
+
+.redBox { background-color: red; color: white; padding: 10px; }
+
+.wrapper { font-size: 0; }
+
+.inline-block { display: inline-block; vertical-align: middle; border: 3px solid blue; font-size: 20px; }
+
+.inline-block.box1 { width: 200px; height: 70px; }
+
+.inline-block.box2 { width: 200px; height: 150px; }
+
+.visible { visibility: visible; }
+
+.hidden { visibility: hidden; }
+
+.collapse { visibility: collapse; }
+
+.opacity { float: left; width: 150px; height: 150px; margin: 30px; background-color: blue; color: white; opacity: 0.5; -webkit-transition: opacity 0.25s; transition: opacity 0.25s; line-height: 150px; text-align: center; }
+
+.opacity:hover { opacity: 1.0; }
+/*# sourceMappingURL=style.css.map */

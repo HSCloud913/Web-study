@@ -1,0 +1,40 @@
+.container::after { content: ''; display: block; clear: both; }
+
+.box { width: 100px; height: 100px; border-radius: 6px; }
+
+.box.parent { float: left; margin-right: 30px; margin-bottom: 50px; border: 1px dashed #cecfd5; background-color: #eaeaed; }
+
+.box.child { color: black; white-space: pre-line; word-wrap: break-word; background-color: lightgreen; text-align: center; cursor: pointer; }
+
+.translate { -webkit-transform: translate(25px, 25px); transform: translate(25px, 25px); }
+
+.translate:hover { -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); }
+
+.scale { -webkit-transform: scale(0.5); transform: scale(0.5); }
+
+.scale:hover { -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: scale(1); transform: scale(1); }
+
+.skew { -webkit-transform: skew(25deg, -25deg); transform: skew(25deg, -25deg); }
+
+.skew:hover { -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: skew(0, 0); transform: skew(0, 0); }
+
+.rotate { -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+.rotate:hover { -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+
+.complex { -webkit-transform: scale(0.5) rotate(-20deg); transform: scale(0.5) rotate(-20deg); }
+
+.complex:hover { -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: scale(1) rotate(0); transform: scale(1) rotate(0); }
+
+.origin.scale1:hover { -webkit-transform-origin: 0 0; transform-origin: 0 0; -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: scale(0.5); transform: scale(0.5); }
+
+.origin.scale2:hover { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: scale(0.5); transform: scale(0.5); }
+
+.origin.scale3:hover { -webkit-transform-origin: 100% 100%; transform-origin: 100% 100%; -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: scale(0.5); transform: scale(0.5); }
+
+.origin.ori-translate:hover { -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: translate(25px, 25px); transform: translate(25px, 25px); }
+
+.transform-3d.scale1:hover { -webkit-transform-origin: 0 0; transform-origin: 0 0; -webkit-transition: -webkit-transform 0.5s linear; transition: -webkit-transform 0.5s linear; transition: transform 0.5s linear; transition: transform 0.5s linear, -webkit-transform 0.5s linear; -webkit-transform: rotateX(45deg); transform: rotateX(45deg); }
+
+hr { margin-bottom: 50px; }
+/*# sourceMappingURL=style.css.map */

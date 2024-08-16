@@ -1,0 +1,92 @@
+@mixin img {
+    background-image: url("./Rose.jpg");
+}
+
+.bg {
+    @include img;
+    border: 5px solid gray;
+    width: 474px;
+    height: 444px;
+    margin: 10px;
+
+    &.repeat {
+        &.x {
+            background-repeat: repeat-x;
+        }
+
+        &.y {
+            background-repeat: repeat-y;
+        }
+
+        &.no {
+            background-repeat: no-repeat;
+        }
+    }   
+        
+    &.size {
+        &.pixel {
+            background-size: 200px 200px;
+        }
+        
+        &.percent {
+            background-size: 120% 120%;
+        }
+
+        &.cover {
+            background-size: cover;
+        }
+
+        &.contain {
+            background-size: contain;
+        }
+    }
+
+    &.attachment {
+        height: 888px;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    &.position {
+        background-repeat: no-repeat;
+
+        &.top {
+            background-position: top;
+        }
+
+        &.bottom {
+            background-position: bottom;
+        }
+
+        &.left {
+            background-position: left;
+        }
+
+        &.right {
+            background-position: right;
+        }
+
+        &.center {
+            background-position: center;
+        }
+
+        &.pixel {
+            background-position: 10px 20px;
+        }
+
+        &.percent {
+            background-position: 25% 75%;
+        }
+    }
+
+    &.color {
+        background-repeat: no-repeat;
+        background-color: lightgreen;
+    }
+}
+
+div {
+    font-size: 30px;
+    color: white;
+    background-color:powderblue;
+}

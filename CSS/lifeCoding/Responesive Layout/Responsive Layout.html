@@ -1,0 +1,128 @@
+<!DOCTYPE>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            border-bottom: 1px solid gray;
+            padding-left: 20px;
+        }
+
+        footer {
+            border-top: 1px solid gray;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .content nav {
+            border-right: 1px solid gray;
+        }
+
+        .content aside {
+            border-left: 1px solid gray;
+        }
+
+        nav, aside {
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+
+        main {
+            padding: 10px;
+        }
+
+        nav {
+            order: -1;
+        }
+
+        @media(max-width: 500px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .content nav {
+                border-right: none;
+            }
+
+            .content aside {
+                border-left: none;
+            }
+
+            nav, aside {
+                flex-basis: auto;
+            }
+
+            main {
+                order: 0;
+            }
+
+            nav {
+                order: 1;
+            }
+
+            aside {
+                order: 2;
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HSCloud</h1>
+        </header>
+        <section class="content">
+            <main>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+                    veritatis quam maxime laboriosam veniam mollitia repellat voluptates
+                    unde inventore, quia consectetur aliquam quo possimus eaque ipsam ratione
+                    repellendus quaerat iusto.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nihil veritatis quam maxime laboriosam veniam mollitia repellat voluptates unde inventore,
+                    quia consectetur aliquam quo possimus eaque ipsam ratione repellendus quaerat iusto.Lorem
+                    ipsum dptates unde inventore, quia consectetur aliquam quo possimus
+                    eaque ipsam ratione repellendus quaerat iusto.Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Nihil veritatis quam maxime laboriosam veniam mollitia
+                    repellat voluptates unde inventore, quia consectetur aliquam quo possimus
+                    niam mollitia repellat voluptates unde inventore, quia consectetur aliquam quo possimus
+                    eaque ipsam ratione repellendus quaerat iusto.Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Nihil veritatis quam maxime laboriosam veniam mollitia
+                    repellat voluptates unde inventore, quia consectetur aliquam quo possimus
+                </p>
+            </main>
+    
+            <nav>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </nav>
+    
+            <aside>
+                AD
+            </aside>
+        </section>
+        <footer>
+            <a href="https://bkleeeng2000.iptime.org">https://bkleeeng2000.iptime.org</a>
+        </footer>
+    </div>
+</body>
+</html>

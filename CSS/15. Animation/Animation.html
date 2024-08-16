@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset style="height: 245px;">
+        <legend>KeyFrame</legend>
+        <div class="keyframe1"></div>
+        <br><br><br><br><br>
+        <div class="keyframe2"></div>
+    </fieldset>
+
+    <fieldset style="height: 140px;">
+        <legend>Name</legend>
+        <div class="name"></div>
+    </fieldset>
+
+    <fieldset style="height: 350px;">
+        <legend>Direction</legend>
+        <div class="direction"></div>
+    </fieldset>
+
+    <fieldset style="height: 455px;">
+        <legend>Fill-Mode</legend>
+        <div class="fill-mode">none</div> <br><br><br><br><br>
+        <div class="fill-mode">forwards</div> <br><br><br><br><br>
+        <div class="fill-mode">backwards</div> <br><br><br><br><br>
+        <div class="fill-mode">both</div> <br><br><br><br><br>
+    </fieldset>
+
+    <fieldset style="height: 160px;">
+        <legend>Play-State</legend>
+        <div class="play-state"></div>
+
+        <button class="start">start</button>
+        <button class="pause">pause</button>
+
+        <script>
+            const box = document.querySelector('.play-state');
+            document.querySelector('.start').addEventListener('click', function() {
+                box.style.animationPlayState = 'running';
+            });
+            document.querySelector('.pause').addEventListener('click', function() {
+                box.style.animationPlayState = 'paused';
+            });
+        </script>
+    </fieldset>
+    
+
+</body>
+
+</html>

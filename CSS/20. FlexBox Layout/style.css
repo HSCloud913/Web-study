@@ -1,0 +1,78 @@
+legend { font-size: 30px; }
+
+.flex-container { margin: 10px; padding: 10px; border-radius: 5px; background: #60B99A; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.flex-container.introduction { -ms-flex-pack: distribute; justify-content: space-around; }
+
+.flex-container.direction.row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+
+.flex-container.direction.row-rev { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+
+.flex-container.direction.col { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.flex-container.direction.col-rev { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+.flex-container.wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.flex-container.wrap.no { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+
+.flex-container.wrap.reverse { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+.flex-container.justify-content.start { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+
+.flex-container.justify-content.center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.flex-container.justify-content.end { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.flex-container.justify-content.space-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.flex-container.justify-content.space-around { -ms-flex-pack: distribute; justify-content: space-around; }
+
+.flex-container.align-items { height: 150px; }
+
+.flex-container.align-items.stretch { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+
+.flex-container.align-items.start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+
+.flex-container.align-items.center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.flex-container.align-items.end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+
+.flex-container.align-items.baseline { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+
+.flex-container.align-content { height: 200px; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.flex-container.align-content.stretch { -ms-flex-line-pack: stretch; align-content: stretch; }
+
+.flex-container.align-content.start { -ms-flex-line-pack: start; align-content: flex-start; }
+
+.flex-container.align-content.center { -ms-flex-line-pack: center; align-content: center; }
+
+.flex-container.align-content.end { -ms-flex-line-pack: end; align-content: flex-end; }
+
+.flex-container.align-content.space-between { -ms-flex-line-pack: justify; align-content: space-between; }
+
+.flex-container.align-content.space-around { -ms-flex-line-pack: distribute; align-content: space-around; }
+
+.flex-container.align-self { height: 200px; }
+
+.flex-container.align-self > .flex-item.set:nth-child(1) { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+
+.flex-container.align-self > .flex-item.set:nth-child(2) { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+
+.flex-container.align-self > .flex-item.set:nth-child(3) { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+
+.flex-container.align-self > .flex-item.set:nth-child(4) { -ms-flex-item-align: end; align-self: flex-end; }
+
+.flex-container.align-self > .flex-item.set:nth-child(5) { -ms-flex-item-align: baseline; align-self: baseline; }
+
+.flex-item { margin: 10px; padding: 20px; color: #fff; text-align: center; border-radius: 5px; background: #4584B1; }
+
+.flex-item.set { width: 10px; height: 10px; line-height: 10px; }
+
+.flex-item.flex-shrink { -ms-flex-preferred-size: 120px; flex-basis: 120px; }
+
+.flex-item.flex-shrink.short { -ms-flex-negative: 1; flex-shrink: 1; }
+
+.flex-item.flex-shrink.long { -ms-flex-negative: 0; flex-shrink: 0; }
+/*# sourceMappingURL=style.css.map */

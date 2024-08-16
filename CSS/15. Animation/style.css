@@ -1,0 +1,96 @@
+legend { font-size: 30px; }
+
+.keyframe1 { position: absolute; width: 100px; height: 100px; background-color: red; -webkit-animation-name: move_px; animation-name: move_px; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+@-webkit-keyframes move_px { from { left: 30px; }
+  to { left: 330px; } }
+
+@keyframes move_px { from { left: 30px; }
+  to { left: 330px; } }
+
+.keyframe2 { position: absolute; width: 100px; height: 100px; background-color: red; -webkit-animation-name: move_ps; animation-name: move_ps; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+@-webkit-keyframes move_ps { 0% { left: 30px; }
+  50% { left: 130px; }
+  100% { left: 330px; } }
+
+@keyframes move_ps { 0% { left: 30px; }
+  50% { left: 130px; }
+  100% { left: 330px; } }
+
+.name { position: absolute; width: 100px; height: 100px; background-color: red; -webkit-animation-name: fadeOut, changeColor; animation-name: fadeOut, changeColor; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+@-webkit-keyframes fadeOut { from { opacity: 1; }
+  to { opacity: 0; } }
+
+@keyframes fadeOut { from { opacity: 1; }
+  to { opacity: 0; } }
+
+@-webkit-keyframes changeColor { from { background-color: red; }
+  to { background-color: blue; } }
+
+@keyframes changeColor { from { background-color: red; }
+  to { background-color: blue; } }
+
+.direction { position: absolute; width: 100px; height: 100px; background-color: red; -webkit-animation: circle 5s infinite; animation: circle 5s infinite; -webkit-animation-direction: alternate; animation-direction: alternate; }
+
+@-webkit-keyframes circle { 0% { background: red;
+    left: 30px;
+    top: 480px; }
+  25% { background: yellow;
+    left: 230px;
+    top: 480px; }
+  50% { background: blue;
+    left: 230px;
+    top: 680px; }
+  75% { background: green;
+    left: 30px;
+    top: 680px; }
+  100% { background: red;
+    left: 30px;
+    top: 480px; } }
+
+@keyframes circle { 0% { background: red;
+    left: 30px;
+    top: 480px; }
+  25% { background: yellow;
+    left: 230px;
+    top: 480px; }
+  50% { background: blue;
+    left: 230px;
+    top: 680px; }
+  75% { background: green;
+    left: 30px;
+    top: 680px; }
+  100% { background: red;
+    left: 30px;
+    top: 480px; } }
+
+.fill-mode { position: absolute; width: 100px; height: 100px; background-color: red; font: bold 1em/100px san-serif; text-align: center; color: #fff; -webkit-animation: fillmode 2s linear 2s; animation: fillmode 2s linear 2s; left: 30px; }
+
+.fill-mode:nth-of-type(1) { -webkit-animation-fill-mode: none; animation-fill-mode: none; }
+
+.fill-mode:nth-of-type(2) { -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; }
+
+.fill-mode:nth-of-type(3) { -webkit-animation-fill-mode: backwards; animation-fill-mode: backwards; }
+
+.fill-mode:nth-of-type(4) { -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+@-webkit-keyframes fillmode { 0% { left: 30px;
+    background: yellow; }
+  100% { left: 330px;
+    background: blue; } }
+
+@keyframes fillmode { 0% { left: 30px;
+    background: yellow; }
+  100% { left: 330px;
+    background: blue; } }
+
+.play-state { position: absolute; width: 100px; height: 100px; background-color: red; position: relative; -webkit-animation-name: playstate; animation-name: playstate; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-play-state: paused; animation-play-state: paused; }
+
+@-webkit-keyframes playstate { from { left: 0px; }
+  to { left: 300px; } }
+
+@keyframes playstate { from { left: 0px; }
+  to { left: 300px; } }
+/*# sourceMappingURL=style.css.map */
