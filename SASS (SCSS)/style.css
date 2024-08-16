@@ -1,0 +1,81 @@
+@charset "UTF-8";
+#header { width: 100px; }
+
+#aside { width: 100px; }
+
+#footer { width: 100px; }
+
+.mars { color: #D7525C; }
+
+body { color: blue; font-size: 14px; font-family: "arial", sans-serif; line-height: 142.85714%; }
+
+#sample_body3 { color: #333; }
+
+#sample_foo { width: calc(14px + 10em); }
+
+p { /* '/' 연산자를 사용하기 위해서는 몇가지 조건이 필요하다. 1. 변수에 대해 사용 2. 괄호 내에서 사용 3. 다른 연산의 일부로서 사용 */ font: italic bold 12px/30px Georgia, serif; border-radius: 10px 20px/20px; /* border-top-left-radius: 10px 20px; border-top-right-radius: 20px; border-bottom-right-radius: 10px 20px; border-bottom-left-radius: 20px; */ width: 500px; height: 250px; margin-left: 9px; font: 12px / 30px; }
+
+div { color: #050709; background-color: rgba(255, 0, 0, 0.8); background-color: rgba(255, 0, 0, 0.2); }
+
+div #container { width: 100px; color: red; }
+
+#navbar { width: 80%; height: 23px; }
+
+#navbar ul { list-style-type: none; }
+
+#navbar li { float: left; }
+
+#navbar li a { font-weight: bold; }
+
+#navbar:visited { color: purple; }
+
+#navbar::pseudo-element { font-size: 3em; }
+
+#navbar .funky { font-family: fantasy; font-size: 30em; font-weight: bold; }
+
+.error, .jsError { border: 1px solid gray; background-color: red; }
+
+.jsError { /* border: 1px solid gray; background-color: red; */ border-width: 3px; border-color: powderblue; }
+
+.foo { color: red; }
+
+.input-black { font-size: 14px; }
+
+.input-black { /* font-size: 14px; */ color: black; }
+
+.study_if { color: blue; }
+
+.study_aif { color: red; }
+
+.item-1 { width: 2em; }
+
+.item-2 { width: 4em; }
+
+.item-3 { width: 6em; }
+
+.puma-icon { background-image: url("/images/puma.png"); }
+
+.sea-slug-icon { background-image: url("/images/sea-slug.png"); }
+
+.egret-icon { background-image: url("/images/egret.png"); }
+
+.salamander-icon { background-image: url("/images/salamander.png"); }
+
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.5em; }
+
+h3 { font-size: 1.2em; }
+
+.item-6 { width: 12em; }
+
+.item-4 { width: 8em; }
+
+.item-2 { width: 4em; }
+
+.cl_circle { width: 50px; height: 50px; border-radius: 50%; background: #f00; }
+
+.cl_rect { width: 50px; height: 50px; background: #00f; }
+
+#sidebar { width: 240px; }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+@import "import1"; // _파일은 참조하려면 직접 import 해줘야함
+
+#container {
+    width: $import_1_num;
+    color: red;
+}
