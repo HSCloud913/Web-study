@@ -1,0 +1,180 @@
+<!-- 190327 ~ 190327 -->
+<!DOCTYPE html>
+<html>
+
+<head lang="ko">
+    <meta charset="utf-8">
+    <meta name="author" content="HSCloud">
+    <meta name="description" content="HSCloud HTML Study">
+    <meta name="keyword" content="HTML">
+    <title>HTML Study 20190326</title>
+</head>
+
+<body>
+    <h1>HTML</h1>
+
+    <fieldset>
+        <legend>
+            <p>Intro</p>
+        </legend>
+        <h1>Text Formatting Tag</h1>
+        <h2>Text Formatting Tag</h2>
+        <h3>Text Formatting Tag</h3>
+        <h4>Text Formatting Tag</h4>
+        <h5>Text Formatting Tag</h5>
+        <h6>Text Formatting Tag</h6>
+    </fieldset>
+
+    <fieldset>
+        <b>Bold<br></b>
+        <strong>Strong<br></strong>
+        <i>italic<br></i>
+        <em>emphasized<br></em>
+        <small>small<br></small>
+        <del>del<br></del>
+        <ins>ins<br></ins>
+        <p>String<sup>sup<br></sup></p>
+        <p>String<sub>sub</sub></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2>본문 Tag</h1>
+        </legend>
+        <p>p Tag<br></p>
+        <hr>
+        <pre>
+    pre Tag
+    #include <iostream>
+                    
+    void main()
+    {
+        std::cout<<"Hello Web"<< std::endl
+    }
+        </pre>
+        <hr>
+        <p>He say: <q>Quote</q><br></p>
+        <blockquote>
+            <p>BlockQuote&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+        </blockquote>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2>List Tag</h2>
+        </legend>
+        <ul>
+            <li>ul 1</li>
+            <li>ul 2</li>
+            <li>ul 3</li>
+        </ul>
+        <hr>
+        <ol type="I">
+            <li>ol 1</li>
+            <li>ol 2</li>
+            <li>ol 3</li>
+        </ol>
+        <hr>
+        <ul>
+            <li>ul 1</li>
+            <li>ul 2</li>
+            <li>ul 3</li>
+            <ol type="i">
+                <li>ol 1</li>
+                <li>ol 2</li>
+                <li>ol 3</li>
+            </ol>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2>Table Tag</h2>
+        </legend>
+        <table border="3">
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>ㄱ</td>
+                <td>ㄴ</td>
+                <td>ㄷ</td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>
+            <h2>MultiMedia Tag</h2>
+        </legend>
+        <h3>Img</h3>
+        <img src="./Semantic Tag.PNG" alt="이미지가 경로에 없음" width="400">
+        <hr>
+
+        <h3>Audio</h3>
+        <audio src="" controls></audio> <br>
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            <source src="" type="audio/ogg">
+        </audio>
+        <hr>
+
+        <h3>Video</h3>
+        <video src="" controls></video> <br>
+        <video width="640" height="360" controls>
+            <source src="" type="video/mp4">
+            <source src="" type="video/webm">
+        </video>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>Form Tag</h2>
+        </legend>
+        <form action="" method="GET">
+            ID: <input type="text" name="id" value=""> <br>
+            PW: <input type="text" name="pw" value=""> <br>
+            <input type="submit" value="Login">
+        </form>
+        <hr>
+
+        <input type="color">
+        <hr>
+
+        <select name="Car1">
+            <option value="SM5">SM5</option>
+            <option value="K5">K5</option>
+            <option value="BMW">BMW</option>
+        </select>
+        <select name="Car2">
+            <optgroup label="ㅁ1ㅁ2ㅁ3ㅁ4">
+                <option value="SM5">SM5</option>
+                <option value="K5">K5</option>
+                <option value="BMW">BMW</option>
+            </optgroup>
+        </select> <br>
+        <hr>
+
+        <textarea name="message" row="100" col="300">Write PLZ</textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2>File Select</h2>
+        </legend>
+        <form action="">
+            <input type="file">
+            <input type="submit">
+        </form>
+    </fieldset>
+</body>
+
+</html>
